@@ -1,0 +1,39 @@
+origin 150 300
+rot 2*pi*(80/360)
+scale 1 1
+for t from 0 to 250 step 1 draw t 0
+
+origin 300 300
+rot 0
+scale 100 100
+for t from 0 to 2*pi step 2*pi/360 draw sin t cos t
+
+origin 600 300
+scale 100 80
+for t from 0 to 2*pi step 2*pi/360 draw sin t cos t
+
+origin 150 300
+scale 1 1
+for t from 0 to 50 step 1 draw t 0
+
+origin 400 300
+scale 1 1
+for t from 0 to 100 step 1 draw t 0
+
+origin 700 300
+scale 1 1
+for t from 0 to 50 step 1 draw t 0
+
+origin 750 300
+rot 2*pi*(80/360)
+scale 1 1
+for t from 0 to 250 step 1 draw t 0
+
+origin 450 450
+rot -2*pi*50/360
+scale 200 200
+for t from 0 to 3/8*pi step 2*pi*(1/360) draw sin t cos t
+--draw sda
+//origin 600 300//sadsad
+--scale 100 100
+--for t from 0 to 4*pi step 2*pi/360 draw t cos t
